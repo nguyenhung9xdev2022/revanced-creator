@@ -36,7 +36,7 @@ jobs:
        - name: Upload Build Artifact(youtube)
          uses: actions/upload-artifact@v3
          with:
-           name: revanced-youtube
+           name: revanced-mod
            path: |
             revanced-*-non-root.apk
             vanced-microg.apk
