@@ -30,7 +30,7 @@ jobs:
          run: |
           # curl -OL https://github.com/XDream8/revanced-creator/releases/download/keystores/revanced-creator.keystore
           # export additional_args="--keystore=revanced-creator.keystore"
-          # export additional_args="-i theme -i -i general-ads video-ads-i remember-video-quality -i enable-wide-searchbar -i swipe-controls -i -i disable-fullscreen-panels client-spoof -i custom-playback-speed -i minimized-playback -i downloads -e hide-shorts-button -e seekbar-tapping -e custom-video-buffer -e -e premium-heading -e -e custom-branding -e enable-debugging -e settings -e old-quality-layout"
+          # export additional_args="-e hide-shorts-button -e seekbar-tapping -e custom-video-buffer -e -e premium-heading -e -e custom-branding -e enable-debugging -e settings -e old-quality-layout"
           sh -c "$(curl https://raw.githubusercontent.com/XDream8/revanced-creator/main/patch.sh)"
           curl -OL https://github.com/XDream8/revanced-creator/releases/download/youtube/vanced-microg.apk
 
